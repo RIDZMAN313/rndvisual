@@ -32,7 +32,12 @@ function fadeInOnScroll() {
 
 window.addEventListener('scroll', fadeInOnScroll);
 fadeInOnScroll(); // trigger awal
-const texts = ["Logo Yang Menjual...", "Identiti Yang Kukuh...", "Rekaan Profesional Bajet!"];
+const texts = [
+  "Reka Logo Untuk Bisnes Anda",
+  "Harga Mampu Milik, Kualiti Premium",
+  "RND VISUAL – No.1 Logo Murah Malaysia"
+];
+
 let textIndex = 0;
 let charIndex = 0;
 const typingSpeed = 100;
